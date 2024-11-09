@@ -1,0 +1,178 @@
+/* Universal Styles */
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+/* Body */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+    background-color: white; 
+    color: #333;
+    height: 1200px; 
+}
+
+/* Header */
+header {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    background-color: #7b1fa2; 
+    padding: 10px 0; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    z-index: 900; 
+    height: 280px; 
+}
+
+.logo img {
+    max-width: 350px; 
+    height: auto; 
+}
+
+nav {
+    margin-top: 10px; 
+}
+
+nav ul {
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
+}
+
+nav ul li {
+    margin-left: 20px; 
+}
+
+nav ul li a {
+    text-decoration: none; 
+    font-size: 23px;
+    color: rgb(1, 137, 1); 
+    font-weight: bold; 
+    transition: color 0.3s, background-color 0.3s; /* Transition for color and background */
+    padding: 5px 10px; /* Padding for spacing */
+    background-color: whitesmoke; /* Light background for contrast */
+    border-radius: 5px; /* Slightly round the corners */
+    
+}
+
+nav ul li a:hover {
+    color: rgb(58, 4, 221); 
+    font-size: 30px; /* Increased font size on hover */
+    background-color: rgba(255, 255, 255, 0.6); /* Darker background on hover */
+    text-shadow: 2px 2px 6px rgba(244, 6, 153, 0.6); /* Stronger shadow on hover */
+}
+
+ 
+
+/* Main Content */
+main {
+    margin-top: 295px; /* Adjust for header height */
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    padding: 40px 10px; 
+    background-color: #ffcc00;
+     
+}
+.heroImageContainer{
+    margin: 10px;
+    padding: 40px;
+}
+
+.herotext{
+    font-size: 40px;
+}
+
+p {
+ padding: 10px;
+ font-size: 28px;
+}
+
+
+.heroImage {
+    width: 400px;
+    height: auto;
+    padding:0 20px;
+}
+.hero h2 {
+    font-size: 40px; 
+    margin-bottom: 10px; 
+}
+
+/* Call to Action Button Styles */
+.cta-button {
+    display: -moz-box; 
+    font-size: 20px;
+    font-style: italic;
+    margin: 20 px 10px;
+    padding: 12px 60px; 
+    background-color: #039603; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+    margin: 10px; 
+}
+
+.cta-button:hover {
+    background-color: #2903c4; 
+}
+
+/* Section Styles */
+section {
+    padding: 60px 20px; 
+}
+
+h2 {
+    font-size: 28px; 
+    margin-bottom: 15px; 
+}
+
+/* Resource Hub, Community Forum, Collaboration Space, Connect Section */
+.resource-hub,
+.community-forum,
+.collaboration-space,
+.connect-section {
+    margin: 20px 0; 
+    border: 2px solid #ff5722; 
+    border-radius: 8px; 
+    padding: 20px; 
+    background-color: #f9f9f9; 
+}
+
+/* Connect Section */
+.connect-section {
+    text-align: center; 
+}
+
+.social-media-links a {
+    margin: 0 10px; 
+    text-decoration: none; 
+    color: #7b1fa2; 
+    font-weight: bold; 
+}
+
+.social-media-links a:hover {
+    text-decoration: underline; 
+}
+
+/* Footer */
+footer {
+    text-align: center; 
+    padding: 20px; 
+    background-color: #ffcc00; 
+    position: relative; 
+}
+
+footer p {
+    margin: 5px 0; 
+}
